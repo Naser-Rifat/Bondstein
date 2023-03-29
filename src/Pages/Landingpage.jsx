@@ -1,5 +1,5 @@
-import React from 'react'
-const Hero = lazy(() => import(".../Componentes/Hero/Hero"));
+import React, { lazy } from 'react'
+const Hero = lazy(() => import("../Componentes/Hero/Hero"));
 
 const LandingPage = () => {
   return (
